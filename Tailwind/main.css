@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-blue-200 m-8 p-2 rounded-md;
+}
+
+.nav_link {
+  @apply font-semibold text-[#171A20] mx-4 px-[0.8rem] py-[0.4rem] rounded-[1rem] bg-transparent hover:bg-[#171A20]/10 transition-all duration-300
+}
+
+.btn {
+  @apply text-white bg-[#171A20] font-medium uppercase my-2 py-[0.4rem] px-[3.2rem] mx-[0.8rem] rounded-[3rem] w-[18rem] h-10 bg-opacity-70
+}
+
+.btn-2 {
+  @apply text-[#171A20] bg-white font-medium uppercase my-2 py-[0.4rem] px-[3.2rem] mx-[0.8rem] rounded-[3rem] w-[18rem] h-10 bg-opacity-70
+}
